@@ -9,9 +9,9 @@ Analysis green_stock data VBA
 #### The purpose of this analysis is to provide a method of analyzing the stock market's fluctuations in order to be able to make the smartest choice when investing. We want to execute an analysis VBA that will be productive, therefore it will be a refactor version, that way it will execute faster and we can recieve our results sooner.  We want to be able to, we used the dataset to create an analysis on any given year that returns the a table in a workbook including the stock's correlating Ticker, Total Daily Volume, and Return. 
 
 ## Results
-![VBA_Challenge_2017](Resources/VBA_Challenge_2017.png)
+![VBA_Challenge_2017](VBA_Challenge_2017.png)
 
-![VBA_Challenge_2018](Resources/VBA_Challenge_2018.png)
+![VBA_Challenge_2018](VBA_Challenge_2018.png)
 
 #### Shown in the images above we see that in a general sense, the stock performance in 2017 was a lot better than the stock performance in 2018. In particular AY, CSIQ, DQ, FLSR, HASI, JSK, SEDG, SPWR, VSLR all went form positive return rates to negative return rates from 2017 to 2018. We also find that TERP remained in the negatives for return rates, and ENPH and RUN remained in the positives for return rates. Thus the stocks that seem to have the most benefits while invested would be RUN and TERP for these two particular years. The execution of this workbook for stocks in 2017 was done in 0.171875 seconds and the execution for this workbook for stock in 2018 was done in 0.1757812 seconds. This speed is welcomed by the refactoring of the original All Stocks Analysis code. When running the All Stocks Analysis code it ran for 2017 in 0.5898438 seconds and for 2018 it ran in 0.59375 for the same resulting workbooks as the refactored code's output. 
 
